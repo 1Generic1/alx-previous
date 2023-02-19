@@ -4,6 +4,7 @@
 
 /**
  * main - Entry point of the program
+ *
  * Return : 0 (success)
  */
 int main(void)
