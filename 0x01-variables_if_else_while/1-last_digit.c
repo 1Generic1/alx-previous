@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point of this progran that prints the last digit of the number stored in the variable n
+ * main - Entry point
  *
  * Return: 0 on success
  *
@@ -13,7 +13,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf("Last digit of %d", n % 10);
+	printf("Last digit of %d ", n % 10);
 	if (n > 5)
 	{
 		printf("and is greater than 5\n");
