@@ -2,11 +2,12 @@
 /**
  * main - Entry point
  *
- * return: 0 after success
+ * Return: 0 after Success
  */
 int main(void)
 {
 	int i;
+
 	for (i = 0; i < 10; i++)
 	{
 		printf("%d", i);
