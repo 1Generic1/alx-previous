@@ -4,7 +4,7 @@
  * @c: single letter input
  * Return: Always 0 on success or 1 if otherwise
  */
-int_islower(int c)
+int _islower(int c)
 {
 	int c;
 		if (c >= 'a' && c <= 'a')
