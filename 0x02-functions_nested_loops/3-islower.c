@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - Entry point
- *
+ * _islower - Entry point
+ * @c: single letter input
  * Return: Always 0 on success or 1 if otherwise
  */
 int_islower(int c)
