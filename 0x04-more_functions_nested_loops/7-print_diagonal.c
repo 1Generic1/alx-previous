@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_diagonal - Entry point 
- * @n: number of times the character should be printed 
+ * print_diagonal - Entry point
+ * @n: number of times the character should be printed
  * Return: a diagonal line
  */
 
