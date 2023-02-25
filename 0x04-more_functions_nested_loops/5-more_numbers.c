@@ -2,8 +2,6 @@
 
 /**
  * more_numbers - Entry point
- * @i: input number
- * @j: input number
  */
 void more_numbers(void)
 {
