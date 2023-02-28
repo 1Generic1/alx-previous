@@ -17,7 +17,7 @@ int main()
 		int i;
 		srand(time(NULL));
 
-		for (i = 0; i < PASSWORD_LENGHT + 1; i++)
+		for (i = 0; i < PASSWORD_LENGTH + 1; i++)
 		{
 			password[i] = rand() % 94 + 33;
 		}
