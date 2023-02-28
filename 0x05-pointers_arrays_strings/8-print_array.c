@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_array - entry point 
+ * print_array - entry point
  * @a: the array of integers
  * @n: the number of elements to print
  */
@@ -14,7 +14,7 @@ void print_array(int *a, int n)
 	{
 		printf("%d", a[i]);
 
-		if (i != n-1)
+		if (i != n - 1)
 		{
 			printf(", ");
 		}
