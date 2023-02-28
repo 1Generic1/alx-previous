@@ -1,5 +1,5 @@
 #include "main.h"
-#include <sitdio.h>
+#include <stdio.h>
 
 /**
  * print_array - entry point 
