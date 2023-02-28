@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _puts(char *str) - entry point
+ * _puts - entry point
  * @str: string to print
  *
  * Return: return string
