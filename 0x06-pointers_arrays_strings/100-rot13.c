@@ -15,7 +15,7 @@ char *rot13(char *src)
 	char rot[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm"
 
 	i = 0;
-	while (str[i] != '\0')
+	while (src[i] != '\0')
 	{
 		j = 0;
 		while ( c[j] != '\0')
