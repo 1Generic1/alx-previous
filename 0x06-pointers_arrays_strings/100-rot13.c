@@ -11,8 +11,8 @@ char *rot13(char *src)
 {
 	int i, j;
 
-	char c[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
-	char rot[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm"
+	char c[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char rot[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
 	i = 0;
 	while (src[i] != '\0')
@@ -29,5 +29,5 @@ char *rot13(char *src)
 		}
 		i++;
 	}
-	return (str);
+	return (src);
 }
