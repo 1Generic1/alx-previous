@@ -7,7 +7,7 @@
  * Return: *dest
  */
 
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
 	int dest_len = 0, src_len = 0;
 
