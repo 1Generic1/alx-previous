@@ -2,9 +2,9 @@
 
 /**
  * _memset - entry point of function that fills memory ith constant
- * @s: pointer
- * @b: constant byte
- * @n: interger number of byte of the memory
+ * @s: pointer to the memory area to be filled
+ * @b: constant byte value to fill memory with
+ * @n: number of byte of the memory to be filled
  *
  * Return: returns pointer
  */
