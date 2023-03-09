@@ -5,7 +5,7 @@
  * @x: interger input
  * @y: interger input
  *
- * Return: -1 if y is lower than 0 
+ * Return: -1 if y is lower than 0
  */
 
 int _pow_recursion(int x, int y)
