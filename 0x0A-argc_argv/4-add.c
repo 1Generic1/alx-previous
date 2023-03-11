@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 			}
 			arg++;
 		}
-		num = atoi(argv[i]);
+		num2 = atoi(argv[i]);
 		if (num > 0)
 		{
 			total += num;
