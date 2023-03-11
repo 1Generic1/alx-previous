@@ -32,9 +32,9 @@ int main(int argc, char *argv[])
 			arg++;
 		}
 		num2 = atoi(argv[i]);
-		if (num > 0)
+		if (num2 > 0)
 		{
-			total += num;
+			total += num2;
 		}
 	}
 	printf("%d\n", total);
