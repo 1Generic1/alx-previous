@@ -31,9 +31,9 @@ int main(int argc, char *argv[])
 	coins += cents / 10;
 	cents %= 10;
 	coins += cents / 5;
-	coins %= 5;
+	cents %= 5;
 	coins += cents / 2;
-	coins %= 2;
+	cents %= 2;
 	coins += cents;
 	printf("%d\n", coins);
 
