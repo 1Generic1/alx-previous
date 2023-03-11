@@ -31,6 +31,7 @@ int main(int argc, char *argv[])
 			}
 			arg++;
 		}
+		num2 = 0;
 		num2 = atoi(argv[i]);
 		if (num2 > 0)
 		{
