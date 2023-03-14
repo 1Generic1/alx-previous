@@ -6,7 +6,7 @@
  * _strdup - function returns a pointer to a new string
  * @str: the string
  *
- * Return: a pointer to the string 
+ * Return: a pointer to the string
  */
 
 char *_strdup(char *str)
@@ -17,7 +17,7 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 	{
-		return NULL;
+		return (NULL);
 	}
 	while (str[len] != '\0')
 		len++;
