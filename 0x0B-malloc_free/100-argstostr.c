@@ -29,10 +29,10 @@ char *argstostr(int ac, char **av)
 		}
 	len++;
 	}
-	str = malloc(len * sizeof(char));
+	str = malloc((len + 1) * sizeof(char));
 	for (i = 0, k = 0; i < ac; i++)
 	{
-		for(j = 0; av[i][j]; j++, k++)
+		for (j = 0; av[i][j]; j++, k++)
 		{
 			str[k] = av[i][j];
 		}
