@@ -30,10 +30,11 @@ char *argstostr(int ac, char **av)
 	str = malloc(len * sizeof(char));
 	for (i = 0, k = 0; i < ac; i++)
 	{
-		for(j + 0; av[i][j]; j++, i++)
+		for(j = 0; av[i][j]; j++, k++)
 		{
-			str[k] = '\n';
+			str[k] = av[i][j];
 		}
+		str[k] = '\n';
 		k++;
 	}
 	str[k] = '\0';
