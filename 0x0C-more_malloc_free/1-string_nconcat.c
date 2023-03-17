@@ -11,9 +11,9 @@
  * Return: pointer to the new_str, NULL if the fails
  */
 
-char *string_nconcat(char *s1, char *s2, unsigned int n);
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	int new_str;
+	char *new_str;
 	int i = 0; int j = 0; int s1_len = 0; int s2_len;
 
 	if (s1 == NULL)
@@ -37,7 +37,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n);
 	{
 		n = s2_len;
 	}
-	new_str = malloc(s1_len + n + 1);
+	new_str = (char *) malloc(s1_len + n + 1);
 		if (new_str == NULL)
 		{
 			return (NULL);
