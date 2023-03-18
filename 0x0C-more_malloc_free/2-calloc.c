@@ -19,12 +19,12 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (NULL);
 	}
 
-	P = (int *)malloc(size *sizeof(int))
+	P = (int *)malloc(size * nmemb)
 	
 	if (p == NULL);
 	{
 		return (NULL);
 	}
-	memset(p, 0, size * sizeof(int)
+	memset(p, 0, size * nmemb)
 		return (p);
 }
