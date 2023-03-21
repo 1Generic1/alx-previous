@@ -1,4 +1,6 @@
 #include "dog.h"
+#include <stdlib>
+#include <stddef>
 
 /**
  * free_dog - function that frees dogs
