@@ -14,8 +14,8 @@
 int create_file(const char *filename, char *text_content)
 {
 	int fd; /* file discriptor */
-	bytes_written = 0;
-	length = 0;
+	size_t bytes_written = 0;
+	size_t length = 0;
 
 	if (filename == NULL)
 		return (-1);
