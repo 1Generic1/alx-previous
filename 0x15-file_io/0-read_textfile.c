@@ -2,6 +2,7 @@
 #include <stddef.h>
 #include <stdlib.h>
 #include <fcntl.h>
+#include <unistd.h>
 
 /**
  * read_textfile - function that reads a text file and prints 
@@ -31,7 +32,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		close(fd);
 		return (0);
 	}
-	bytes_read = read(fd, butter, letters);
+	bytes_read = read(fd, buffer, letters);
 	if (bytes_read == -1)
 	{
 		free(buffer);
